@@ -30,6 +30,7 @@ for county_name in county_votes:
         countyvote_percentage = float(countyvotes) / float(total_votes) * 100
 
         county_results = (f"{county_name}: {countyvote_percentage:.1f}% ({countyvotes:,})\n")
+
 The county with the largest number of voters is printed to the terminal and is executed with the following code:      
 if (countyvotes > winning_county_count) and (countyvote_percentage > winning_county_percentage):
             winning_county_count = countyvotes
@@ -46,8 +47,10 @@ if (countyvotes > winning_county_count) and (countyvote_percentage > winning_cou
     # 8: Save the county with the largest turnout to a text file.
     txt_file.write(winning_county_summary)
     
+    
+    
  To view election analysis results files (python and text files) please click on the links below:
  
- [Election Challenge Python file](https://github.com/JaredTMurray/Election_Analysis/blob/main/PyPoll_Challenge.py)
- [election analysis text file](https://github.com/JaredTMurray/Election_Analysis/blob/main/analysis/election_analysis.txt)
+- [Election Challenge Python file](https://github.com/JaredTMurray/Election_Analysis/blob/main/PyPoll_Challenge.py)
+- [election analysis text file](https://github.com/JaredTMurray/Election_Analysis/blob/main/analysis/election_analysis.txt)
  
