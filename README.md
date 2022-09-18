@@ -47,5 +47,5 @@ if (countyvotes > winning_county_count) and (countyvote_percentage > winning_cou
     txt_file.write(winning_county_summary)
     
  To view election analysis results files please click on the links below:
- [PyPoll_Challenge.py]()
+ [PyPoll_Challenge.py](https://github.com/JaredTMurray/Election_Analysis/blob/main/PyPoll_Challenge.py)
  
