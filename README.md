@@ -49,7 +49,7 @@ if (countyvotes > winning_county_count) and (countyvote_percentage > winning_cou
     # 8: Save the county with the largest turnout to a text file.
     txt_file.write(winning_county_summary)
     
-   ![Image of election results that was written on the text file] ()
+   ![Image of election results that was written on the text file] (https://github.com/JaredTMurray/Election_Analysis/blob/main/Module%203%20Image%202.png)
     
  To view election analysis results files (python and text files) please click on the links below:
  
