@@ -1,25 +1,25 @@
 # Election_Analysis
-Deliverable 1 Requirements
-Candidate Results
+## Deliverable 1 Requirements
+### Candidate Results
 Total Votes in the election are printed to the terminal and is stored in the variable total_votes. 
 
 Each candidate’s total votes and percentage of votes are printed to the terminal and is stored in the variable winning_percentage variable. 
 
-total_votes = 0
-candidate_options = []
-candidate_votes = {}
-winning_candidate = ""
-winning_count = 0
-winning_percentage = 0
+- total_votes = 0
+- candidate_options = []
+- candidate_votes = {}
+- winning_candidate = ""
+- winning_count = 0
+- winning_percentage = 0
 
-County Results and 
+### County Results 
 Each county and its total vote count are printed to the terminal and is stored in the following variables and dictionary:
-total_county_votes = 0
-county_options = []
-county_votes = {}
-winning_county = ""
-winning_county_count = 0
-winning_county_percentage = 0
+- total_county_votes = 0
+- county_options = []
+- county_votes = {}
+- winning_county = ""
+- winning_county_count = 0
+- winning_county_percentage = 0
 Each county and its percentage of the total votes are printed to the terminal and is executed with the following code:
 for county_name in county_votes:
         # 6b: Retrieve the county vote count.
