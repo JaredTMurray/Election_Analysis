@@ -1,5 +1,5 @@
 # Election_Analysis
-## Deliverable 1 Requirements
+## Deliverable 1
 ### Candidate Results
 Total Votes in the election are printed to the terminal and is stored in the variable total_votes. 
 
@@ -12,6 +12,7 @@ Each candidate’s total votes and percentage of votes are printed to the termin
 - winning_count = 0
 - winning_percentage = 0
 
+## Deliverable 2
 ### County Results 
 Each county and its total vote count are printed to the terminal and is stored in the following variables and dictionary:
 - total_county_votes = 0
@@ -44,10 +45,11 @@ if (countyvotes > winning_county_count) and (countyvote_percentage > winning_cou
         f"-------------------------\n")
     print(winning_county_summary)
 
+## Deliverable 3
     # 8: Save the county with the largest turnout to a text file.
     txt_file.write(winning_county_summary)
     
-    
+   ![Image of election results that was written on the text file] ()
     
  To view election analysis results files (python and text files) please click on the links below:
  
