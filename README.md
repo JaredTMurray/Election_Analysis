@@ -46,6 +46,7 @@ if (countyvotes > winning_county_count) and (countyvote_percentage > winning_cou
     # 8: Save the county with the largest turnout to a text file.
     txt_file.write(winning_county_summary)
     
- To view election analysis results files please click on the links below:
+ To view election analysis results files (python and text files) please click on the links below:
  [PyPoll_Challenge.py](https://github.com/JaredTMurray/Election_Analysis/blob/main/PyPoll_Challenge.py)
+ [text file](
  
