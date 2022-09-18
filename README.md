@@ -20,6 +20,7 @@ Each county and its total vote count are printed to the terminal and is stored i
 - winning_county = ""
 - winning_county_count = 0
 - winning_county_percentage = 0
+
 Each county and its percentage of the total votes are printed to the terminal and is executed with the following code:
 for county_name in county_votes:
         # 6b: Retrieve the county vote count.
@@ -44,3 +45,7 @@ if (countyvotes > winning_county_count) and (countyvote_percentage > winning_cou
 
     # 8: Save the county with the largest turnout to a text file.
     txt_file.write(winning_county_summary)
+    
+ To view election analysis results files please click on the links below:
+ [PyPoll_Challenge.py]()
+ 
